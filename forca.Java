@@ -26,8 +26,8 @@ public class Forca {
         // transformando a String em char e guardando a palavra no vetor
         palavra2 = palavra.toCharArray();
         // colocando a palavra do vetor char e um String
-        for (int j = 0; j < confer.length; j++) {
-            for (int k = 0; k < palavra2.length; k++) {
+        for (int j = 0; j < palavra2.length; j++) {
+            for (int k = 0; k < confer.length; k++) {
                 confer[j] = String.valueOf(palavra2[k]);
             }
         }
